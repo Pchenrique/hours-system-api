@@ -14,6 +14,7 @@ class AuthController extends Controller
             'email' => $request->email,
             'registration' => $request->registration,
             'password' => $request->password,
+            'fk_user_group_id' => $request->fk_user_group_id,
          ]);
 
         $token = auth()->login($user);

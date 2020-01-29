@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\GroupUsers;
+use App\Activity;
 use Illuminate\Http\Request;
 
-class GroupUsersController extends Controller
+class ActivityController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class GroupUsersController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\GroupUsers  $groupUsers
+     * @param  \App\Activity  $activity
      * @return \Illuminate\Http\Response
      */
-    public function show(GroupUsers $groupUsers)
+    public function show(Activity $activity)
     {
         //
     }
@@ -52,10 +52,10 @@ class GroupUsersController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\GroupUsers  $groupUsers
+     * @param  \App\Activity  $activity
      * @return \Illuminate\Http\Response
      */
-    public function edit(GroupUsers $groupUsers)
+    public function edit(Activity $activity)
     {
         //
     }
@@ -64,10 +64,10 @@ class GroupUsersController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\GroupUsers  $groupUsers
+     * @param  \App\Activity  $activity
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, GroupUsers $groupUsers)
+    public function update(Request $request, Activity $activity)
     {
         //
     }
@@ -75,10 +75,10 @@ class GroupUsersController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\GroupUsers  $groupUsers
+     * @param  \App\Activity  $activity
      * @return \Illuminate\Http\Response
      */
-    public function destroy(GroupUsers $groupUsers)
+    public function destroy(Activity $activity)
     {
         //
     }
